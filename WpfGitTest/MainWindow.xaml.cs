@@ -24,5 +24,10 @@ namespace WpfGitTest
         {
             InitializeComponent();
         }
+
+        private void btnMessage_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Thank you!");
+        }
     }
 }
